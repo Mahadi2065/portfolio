@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahadi Hasan - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+        header p {
+            font-size: 1.1rem;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            font-size: 2rem;
+            color: #4CAF50;
+            margin-bottom: 20px;
+            text-align: center;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .skill-box {
+            background-color: #f0f0f0;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 5px 10px;
+            font-size: 1rem;
+            color: #333;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+        .project-card {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .project-card h3 {
+            font-size: 1.2rem;
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+        .project-card p {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .contact-info p {
+            font-size: 1.1rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 30px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        /* Mobile Responsive Styles */
+        @media screen and (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            header p {
+                font-size: 0.9rem;
+            }
+            .container {
+                padding: 10px;
+            }
+            .section h2 {
+                font-size: 1.5rem;
+            }
+            .skill-box {
+                font-size: 0.9rem;
+                padding: 8px 15px;
+                margin: 5px;
+            }
+            .project-card h3 {
+                font-size: 1rem;
+            }
+            .project-card p {
+                font-size: 0.9rem;
+            }
+            .contact-info p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mahadi Hasan</h1>
+        <p>CSE Student, Northern University Bangladesh</p>
+    </header>
+    <div class="container">
+        <section class="section" id="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Mahadi Hasan, a dedicated and passionate Computer Science and Engineering student at Northern University Bangladesh. I have a strong interest in programming and web development. I am proficient in C, C++, Python, HTML, CSS, and JavaScript. I am eager to learn new technologies and apply my skills to create innovative and impactful projects.
+            </p>
+        </section>
+        <section class="section" id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-box">C</div>
+                <div class="skill-box">C++</div>
+                <div class="skill-box">Python</div>
+                <div class="skill-box">HTML</div>
+                <div class="skill-box">CSS</div>
+                <div class="skill-box">JavaScript</div>
+                <div class="skill-box">Problem Solving</div>
+                <div class="skill-box">Data Structures</div>
+            </div>
+        </section>
+        <section class="section" id="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Project 1: E-commerce Website</h3>
+                <p>Developed a full-stack e-commerce website using HTML, CSS, JavaScript, and Python (Django framework). Implemented features like user authentication, product browsing, shopping cart, and order processing.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2: Data Analysis Tool</h3>
+                <p>Created a data analysis tool using Python (Pandas, Matplotlib) to process and visualize data from various sources.  Implemented functions for data cleaning, transformation, and statistical analysis.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 3:  Algorithm Visualization</h3>
+                <p>Designed a web application using JavaScript and HTML canvas to visualize different algorithms, such as sorting and searching algorithms.  This project helps to understand the complexities of different algorithms.
+                </p>
+            </div>
+        </section>
+        <section class="section" id="contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p>Email: mahadi.hasan@example.com</p>
+                <p>LinkedIn: linkedin.com/in/mahadihasan</p>
+                <p>GitHub: github.com/mahadihasan</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 Mahadi Hasan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
